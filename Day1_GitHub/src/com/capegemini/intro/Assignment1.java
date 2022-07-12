@@ -7,16 +7,16 @@ public class Assignment1 {
 	public static void main(String[] args) {
 	Scanner sc= new Scanner(System.in);
 	
-	System.out.print("Enter the value of a");
+	System.out.print("Enter the value of a: ");
 //	a is for number of trees in rows
 	int a=sc.nextInt();   
 	
-	System.out.print("Enter the value of b");
+	System.out.print("Enter the value of b: ");
 //	b is for number of trees in columns 
 	int b=sc.nextInt();
 	
 	
-	System.out.print("Enter the value of c");
+	System.out.print("Enter the value of c: ");
 //	c is for number of trees
 	int c=sc.nextInt();
 
@@ -27,7 +27,7 @@ public class Assignment1 {
 	else {
 		System.out.println("It is not a mango tree");
 	}
-		
+		sc.close();
 
 	}
 

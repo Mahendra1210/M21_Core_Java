@@ -4,7 +4,7 @@ class C
 {
 //	we can't override and final method
 //	final void accept
-	void accept()
+	 void accept()
 	{
 		System.out.println("I am providing restrictions");
 	}
